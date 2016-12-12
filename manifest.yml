@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: app-teste-ricardo
+  host: app-teste-ricardo
+  disk_quota: 1024M
+  services:
+  - app-teste-ricardo-AdvancedMobileAccess
+  - app-teste-ricardo-imfpush
+  - app-teste-ricardo-cloudantNoSQLDB
